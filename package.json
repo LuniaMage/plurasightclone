@@ -1,0 +1,25 @@
+{
+  "name": "plurasightluniamagesrccode",
+  "version": "1.0.0",
+  "description": "Traversy PluraSight Clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuniaMage/plurasightclone.git"
+  },
+  "keywords": [
+    "clone",
+    "plurasight",
+    "html",
+    "css"
+  ],
+  "author": "LuniaMage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuniaMage/plurasightLuniaMageSourceCode/issues"
+  },
+  "homepage": "https://github.com/LuniaMage/plurasightLuniaMageSourceCode#readme"
+}
