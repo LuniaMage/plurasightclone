@@ -4,25 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- UIkit CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/css/uikit.min.css" />
     <link rel="stylesheet" href="/luniaMageSourceCode/css/styles.css">
 
     <title>PluraSight Clone</title>
 </head>
 <body>
-    <h1>Plurasight Clone</h1>
 
     <div class="wrapper">
         <div id="left">
             <div id="signin">
-                <img src="https://image.ibb.co/hW1YHq/login-logo.png" alt="plurasight">
+                <div class="logo">
+                    <img src="https://image.ibb.co/hW1YHq/login-logo.png" alt="plurasight">
+                </div>
+               
+            <form action="">
+                <div>
+                    <label for="Username">Email or Username</label>
+                    <input class="text-input" type="text" />
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input class="text-iput" type="password">
+                </div>
+                <button class="primary-btn" type="submit">Sign In</button>
+            </form>
+
+            <div class="links">
+                <a href="#">Forgot Password</a>
+                <a href="#">Sign in with company or shcool</a>
+            </div>
+
+            <div class="or">
+                <hr class="bar">
+                <span>OR</span>
+                <hr class="bar">
+            </div>
+            <a href="#" class="secondary-btn">Create an account</a>
+        </div>
+        <!-- end sign in -->
+        <footer id="main-footer">
+            <p>Copyright &copy; 2020, Plurasight All Rights Reserved</p>
+            <div>
+                <a href="#">Term of use</a> | <a href="#">Privacy Policuy</a>
+            </div>            
+        </footer>
+    </div>
+    <!-- end left -->
+        <div id="right">
+            <div id="showcase">
+                <div class="showcase-content">
+                    <h1 class="showcase-text">Let's create the future<strong>together</strong></h1>
+                    <a class="secondary-btn" href="#">Start a Free 10-day trial</a>
+                </div>
             </div>
         </div>
+        <!-- end right showcase -->
     </div>
-
-
-    <!-- UIkit JS -->
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit-icons.min.js"></script>
+    <!-- wrapper -->
 </body>
 </html>
